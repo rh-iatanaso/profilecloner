@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jboss.tfonteyne.profilecloner</groupId>
     <artifactId>profilecloner</artifactId>
-    <version>2016-10-10</version>
+    <version>2022-01-01</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -88,9 +88,9 @@
     </profiles>
     <dependencies>
         <dependency>
-            <groupId>org.wildfly</groupId>
+            <groupId>org.wildfly.core</groupId>
             <artifactId>wildfly-cli</artifactId>
-            <version>8.2.1.Final</version>
+            <version>17.0.3.Final</version>
             <classifier>client</classifier>
         </dependency>
     </dependencies>
